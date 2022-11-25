@@ -1,0 +1,27 @@
+{
+  "name": "p0",
+  "version": "0.0.1",
+  "description": "A project",
+  "main": "lib/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc --build --force",
+    "test": "vitest run",
+    "test$": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymagio/monorepo-template.git"
+  },
+  "keywords": [],
+  "author": "yx@whyx.io",
+  "bugs": {
+    "url": "https://github.com/ymagio/monorepo-template/issues"
+  },
+  "types": "./lib/index.d.ts",
+  "homepage": "https://github.com/ymagio/monorepo-template#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "UNLICENSED"
+}

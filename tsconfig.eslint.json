@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [".eslintrc.js", ".prettierrc.js", "PKG/*/src/**/*.ts", "PKG/*/*.ts"],
+  "exclude": ["node_modules/"]
+}

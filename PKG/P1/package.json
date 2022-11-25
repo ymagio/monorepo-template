@@ -1,0 +1,21 @@
+{
+  "name": "p1",
+  "version": "0.0.1",
+  "description": "A project",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "shx rm -rf lib && tsc --build --force",
+    "watch": "tsc --watch",
+    "test": "vitest run",
+    "test$": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymagio/monorepo-template.git"
+  },
+  "keywords": [],
+  "author": "yx@whyx.io",
+  "dependencies": {
+    "rxjs": "7.5.7"
+  }
+}

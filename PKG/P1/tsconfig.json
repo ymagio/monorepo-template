@@ -1,0 +1,19 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+         "lib": ["ES2017"],
+         "moduleResolution": "node",
+         "rootDir": "./src",
+         "baseUrl": "./src",
+         "outDir": "./lib",
+         "tsBuildInfoFile": "../../local/tsc/P1.tsconfig.tsbuildinfo",
+         "composite": true,
+         "paths": {
+            "P0/*": ["../../P0/lib/*"]
+          }
+     },
+     "references": [
+        { "path": "../P0/" }
+      ],
+     "exclude": ["./lib", "**/*.spec.ts", "./vite.config.ts"]
+  }

@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+       "lib": ["ES2017"],
+       "moduleResolution": "node",
+       "rootDir": "./src",
+       "baseUrl": "./src",
+       "outDir": "./lib",
+       "tsBuildInfoFile": "../../local/tsc/P0.tsconfig.tsbuildinfo",
+       "composite": true
+     },   
+   "exclude": ["./lib", "**/*.spec.ts", "./vite.config.ts"],
+}
