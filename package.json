@@ -4,6 +4,7 @@
   "description": "A monorepo template. Adjust to your needs.",
   "scripts": {
     "lint": "eslint PKG",
+    "lint:fix": "eslint PKG --fix",
     "test": "npm test -ws --if-present",
     "build": "shx rm -rf local/tsc && npm run build -ws --if-present"
   },
