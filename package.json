@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A monorepo template. Adjust to your needs.",
   "scripts": {
-    "lint": "eslint PKG/**/*.ts",
+    "lint": "eslint PKG",
     "test": "npm test -ws --if-present",
     "build": "shx rm -rf local/tsc && npm run build -ws --if-present"
   },
